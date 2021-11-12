@@ -10,7 +10,7 @@
 - Go to https://developer.spotify.com/dashboard/applications and login.
 - Create a new app and get your **client id** and **client secret**.
 - Go to your app => edit settings => and add http://localhost in **redirect uri.**
-- Update the client id, client secret and cleint uri fields in the .env. Note: paste the value after = without quotes(' ').
+- Update the client id, client secret and cleint uri(http://localhost/) fields in the .env. Note: paste the value after = without quotes(' ').
 - Run the script in terminal
   ```bash
     python tv_updater.py
